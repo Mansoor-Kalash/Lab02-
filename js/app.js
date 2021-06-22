@@ -7,11 +7,13 @@ let a1 = prompt(q1 + ' Should answer with Yes or No');
 
 switch (a1.toLowerCase()) {
 case 'yes':
+case 'y':
   console.log('correct ans');
   alert('correct ans ');
   break;
 
 case 'no':
+case 'n':
   console.log('uncorrect ans');
   alert('uncorrect anss');
   break;
@@ -30,11 +32,13 @@ let a2 = prompt(q2 + ' Should answer with Yes or No');
 
 switch (a2.toLowerCase()) {
 case 'yes':
+case 'y':
   console.log('correct ans');
   alert('correct ans');
   break;
 
 case 'no':
+case 'n':
   console.log('uncorrect ans');
   alert('uncorrect ans');
   break;
@@ -53,14 +57,16 @@ let a3 = prompt(q3 + ' Should answer with Yes or No');
 
 switch (a3.toLowerCase()) {
 case 'yes':
+case 'y':
   console.log('correct ans');
   alert('correct ans');
   break;
 
 case 'no':
+case 'n':
   console.log('uncorrect ans');
   alert('uncorrect ans');
-break;
+  break;
 default:
   console.log('You misspelled it, but it\'s okay');
   alert('You misspelled it, but it\'s okay');
@@ -74,14 +80,17 @@ let a4 = prompt(q4 + ' Should answer with Yes or No');
 
 switch (a4.toLowerCase()) {
 case 'yes':
+case 'y':
   console.log('correct ans');
   alert('correct ans');
   break;
 
 case 'no':
+case 'n':
+
   console.log('uncorrect ans');
   alert('uncorrect ans');
-break;
+  break;
 
 default:
   console.log('You misspelled it, but it\'s okay');
@@ -96,10 +105,12 @@ let q5 = 'You are Graduated from ltuc';
 let a5 = prompt(q5 + ' Should answer with Yes or No');
 switch (a5.toLowerCase()) {
 case 'yes':
+case 'y':
   console.log('correct ans');
   alert('correct ans');
   break;
 case 'no':
+case 'n':
   console.log('uncorrect ans');
   alert('uncorrect ans');
   break;
