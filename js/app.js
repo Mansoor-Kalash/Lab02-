@@ -120,9 +120,9 @@ default:
   alert('You misspelled it, but it\'s okay');
   break;
 }
-alert ('guessing game: you will guess my Luvky number and it is between 0 -10 and you have 4 chances to guess the number and we will tell you if your guess is too high or too low, yoy are ready' );
+alert ('guessing game: you will guess the Lucky number and it is between 0 -10 and you have 4 chances to guess the number and we will tell you if your guess is too high or too low, yoy are ready' );
 
-let lucky = 7;
+let lucky = Math.floor(Math.random() * 11);
 let guess = Number (prompt('Guess the number?'));
 
 for (let i=0 ; i<3 ; i++ )
@@ -179,7 +179,13 @@ for (let i=0 ; i<3 ; i++ )
 }
 
 alert ('guessing game: you will guess my multiple Luvky number and it is between 0 -10 and you have 6 chances to guess the number and we will tell you if your guess is too high or too low, yoy are ready' );
-let poss = [1, 3, 7];
+let poss=[];
+let cc;
+for (let i=0; i<3 ; i++)
+{
+  cc= Math.floor(Math.random() * 11);
+  poss.push(cc);
+}
 let guessNum = [];
 let score = 0;
 let guess2 = Number (prompt('First chance?'));
