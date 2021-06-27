@@ -31,6 +31,7 @@ p{
 .no
 {
  display: block;
+ 
 }
 
 li {
@@ -40,6 +41,7 @@ li {
     margin-right: 1px;
     margin-bottom: 30px;
     margin-left: 1px;
+    list-style-type:lower-roman;
   }
   a{
     color: tomato; background-color: white;
